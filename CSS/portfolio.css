@@ -15,12 +15,12 @@ h1 {
     margin-top: 3%;
     margin-bottom: 2%;
     text-transform: uppercase;
-    font-family: "Trebuchet MS", Optima;
+    font-family: lato;
     text-align: center;
 }
 
 p {
-    font-family: Perpetua, Rockwell Extra Bold;
+    font-family: lato, sans-serif;
     text-align: justify;
     letter-spacing: 1px;
     font-size: 20px;
@@ -47,7 +47,7 @@ q {
     left: 0;
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 5;
     margin-bottom: 3%;
 }
 
@@ -69,6 +69,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: lato;
 }
   
 li a:hover {
@@ -119,7 +120,9 @@ img {
     padding-top: 2%;
     padding-bottom: 2%;
     width: 50%;
-    background-color: #333;
+    background-color: #576c7e;
+    box-shadow: 0px 0px 20px 1px #576c7e;
+    z-index: 1;
 }
 
 .column2 {
@@ -129,6 +132,7 @@ img {
     left: auto;
     width: 50%;
     background-color: aliceblue;
+    overflow: auto;
 }
 
 input[type=text] {
@@ -223,6 +227,7 @@ footer {
 .Next {
     right: 0;
     border-radius: 3px 0 0 3px;
+    opacity: 0.5;
 }
 
 
@@ -239,7 +244,7 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    font-family: Perpetua, Rockwell Extra Bold;
+    font-family: lato;
     letter-spacing: .1vw;
     font-size: 1.5vw;
     background-color: rgba(0, 0, 0, 0.75);
@@ -363,4 +368,8 @@ button:hover, .form-container .btn:hover {
     transition-duration: 1s;
     -webkit-transition-duration: 1s;
     border-color: black;
+}
+
+.slideshowButtons {
+
 }
